@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* #insta{
+    float: left;
+    height: 50px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#camera{
+    float: right;
+    height: 40px;
+    margin-right: 70px;
+    margin-top: 20px;
+} */
+/* .header{
+    height: 80px;
+} */
+.post{
+    display: block;
+    width: 423px;
+    margin: auto;   
+}
+.post_frame{
+    align-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px;
+    
+}
+/* .post_frame{
+    align-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 20px;
+    width:400px
+}  */
+.user-image{
+    padding-bottom: 10px;
+    
+}
+#img{
+    display: flex;
+    height: 400px;
+    width: 400px;
+}
+.user-information{
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+span{
+    color: gray;
+}
+.user-meta{
+    float: right;
+    padding-right: 20px;
+    color: gray;
+}
+#dot{
+    float: right;
+    margin: 10px;
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+#heart{
+    display: block;
+    position: absolute;
+    left: 570px;
+    
+}
+#send{
+    display: block;
+    position: absolute;
+    height: 10px;
+    left: 600px;
+    
+}
+.user-likes{
+    margin-left: 20px;
+    color: gray;
+    padding-top: 10px;
+}
+.user-description{
+    margin: 10px;
+}
